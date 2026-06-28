@@ -1,90 +1,90 @@
-# Compliance Guardian - AI-Powered Business Resilience Intelligence
+# Compliance Guardian - Intelligence de résilience métier alimentée par l'IA
 
-A modern, professional presentation website for the Compliance Guardian platform, showcasing AI-driven compliance monitoring, risk assessment, and business continuity management.
+Un site Web de présentation moderne et professionnel pour la plateforme Compliance Guardian, mettant en avant la surveillance de conformité basée sur l'IA, l'évaluation des risques et la gestion de la continuité métier.
 
-## 🛡️ Overview
+## 🛡️ Vue d'ensemble
 
-Compliance Guardian is an enterprise-grade platform designed to:
-- **Monitor compliance** across multiple regulatory frameworks in real-time
-- **Assess risks** using advanced AI and machine learning
-- **Ensure business continuity** with automated disaster recovery planning
-- **Generate reports** with audit trails and compliance documentation
+Compliance Guardian est une plateforme de niveau entreprise conçue pour :
+- **Surveiller la conformité** sur plusieurs cadres réglementaires en temps réel
+- **Évaluer les risques** à l'aide de l'IA avancée et de l'apprentissage automatique
+- **Assurer la continuité métier** grâce à la planification automatisée de la récupération d'urgence
+- **Générer des rapports** avec des pistes d'audit et une documentation de conformité
 
-## 📂 Project Structure
+## 📂 Structure du projet
 
 ```
 compliance-guardian-copilot-site/
-├── index.html          # Main HTML file with page structure
-├── styles.css          # Comprehensive CSS styling
-├── script.js           # Interactive JavaScript functionality
-└── README.md          # This file
+├── index.html          # Fichier HTML principal avec la structure de page
+├── styles.css          # Styling CSS complet
+├── script.js           # Fonctionnalité JavaScript interactive
+└── README.md          # Ce fichier
 ```
 
-## ✨ Features
+## ✨ Fonctionnalités
 
-### Key Sections
+### Sections clés
 
-1. **Navigation Bar**
-   - Sticky navigation with smooth scrolling
-   - Active link highlighting
-   - Responsive mobile menu
+1. **Barre de navigation**
+   - Navigation persistante avec défilement fluide
+   - Mise en évidence des liens actifs
+   - Menu mobile réactif
 
-2. **Hero Section**
-   - Compelling headline and tagline
-   - Animated shield visualization
-   - Call-to-action button
+2. **Section héros**
+   - Titre et slogan convaincants
+   - Visualisation de bouclier animée
+   - Bouton d'appel à l'action
 
-3. **Features**
-   - Real-Time Monitoring
-   - AI-Powered Analysis
-   - Automated Reporting
-   - Enterprise Security
+3. **Fonctionnalités**
+   - Surveillance en temps réel
+   - Analyse alimentée par l'IA
+   - Rapports automatisés
+   - Sécurité d'entreprise
 
-4. **Capabilities**
-   - Compliance Framework Support (SOC 2, ISO 27001, GDPR, CCPA, HIPAA, PCI-DSS)
-   - Risk Management tools
-   - Business Continuity planning
-   - Integration & Automation
+4. **Capacités**
+   - Support des cadres de conformité (SOC 2, ISO 27001, GDPR, CCPA, HIPAA, PCI-DSS)
+   - Outils de gestion des risques
+   - Planification de la continuité métier
+   - Intégration et automatisation
 
-5. **Benefits**
-   - Reduce Compliance Costs (70% automation)
-   - Minimize Risk Exposure
-   - Ensure Business Continuity
-   - Accelerate Audit Readiness
+5. **Avantages**
+   - Réduire les coûts de conformité (70 % d'automatisation)
+   - Minimiser l'exposition aux risques
+   - Assurer la continuité métier
+   - Accélérer la préparation des audits
 
-6. **Demo & Contact Sections**
-   - Request demo functionality
-   - Contact form for inquiries
+6. **Sections de démo et de contact**
+   - Fonctionnalité de demande de démo
+   - Formulaire de contact pour les demandes de renseignements
 
-## 🎨 Design Features
+## 🎨 Caractéristiques de conception
 
-- **Modern Dark Theme**: Professional cybersecurity aesthetic with cyan/blue gradient accents
-- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
-- **Smooth Animations**: Fade-ins, hover effects, and parallax scrolling
-- **Accessibility**: Semantic HTML and keyboard navigation support
-- **Performance Optimized**: Minimal dependencies, fast loading
+- **Thème sombre moderne** : Esthétique professionnelle de cybersécurité avec accents de dégradé cyan/bleu
+- **Conception réactive** : Fonctionne parfaitement sur les appareils de bureau, tablette et mobiles
+- **Animations fluides** : Fondus, effets de survol et défilement parallaxe
+- **Accessibilité** : Support HTML sémantique et navigation au clavier
+- **Optimisée pour les performances** : Dépendances minimales, chargement rapide
 
-## 🚀 Getting Started
+## 🚀 Démarrage rapide
 
-### Prerequisites
-- Any modern web browser
-- No build tools or dependencies required
+### Prérequis
+- N'importe quel navigateur Web moderne
+- Aucun outil de compilation ou dépendance requis
 
 ### Installation
 
-1. Clone the repository:
+1. Clonez le dépôt :
 ```bash
 git clone https://github.com/aleobois-arch/compliance-guardian-copilot-site.git
 cd compliance-guardian-copilot-site
 ```
 
-2. Open in your browser:
+2. Ouvrez dans votre navigateur :
 ```bash
-# Simply open the index.html file
+# Ouvrez simplement le fichier index.html
 open index.html
 ```
 
-Or use a local server:
+Ou utilisez un serveur local :
 ```bash
 # Python 3
 python -m http.server 8000
@@ -92,49 +92,49 @@ python -m http.server 8000
 # Python 2
 python -m SimpleHTTPServer 8000
 
-# Node.js (with http-server)
+# Node.js (avec http-server)
 npx http-server
 ```
 
-## 🎯 Usage
+## 🎯 Utilisation
 
 ### Navigation
-- Click navigation links to scroll to different sections
-- All links have smooth scroll behavior
+- Cliquez sur les liens de navigation pour accéder aux différentes sections
+- Tous les liens ont un comportement de défilement fluide
 
-### Contact Form
-- Fill out the contact form to submit inquiries
-- Form validation is included
+### Formulaire de contact
+- Remplissez le formulaire de contact pour soumettre des demandes de renseignements
+- La validation du formulaire est incluse
 
-### Responsive Breakpoints
-- Desktop: Full layout with all features
-- Tablet (768px): Optimized grid layout
-- Mobile (480px): Simplified navigation and stacked content
+### Points d'arrêt réactifs
+- Desktop : Mise en page complète avec toutes les fonctionnalités
+- Tablette (768px) : Mise en page de grille optimisée
+- Mobile (480px) : Navigation simplifiée et contenu empilé
 
-## 🛠️ Customization
+## 🛠️ Personnalisation
 
-### Colors
-Edit the CSS variables in `styles.css`:
+### Couleurs
+Modifiez les variables CSS dans `styles.css` :
 ```css
 :root {
-    --primary-color: #00d4ff;      /* Cyan accent */
+    --primary-color: #00d4ff;      /* Accent cyan */
     --secondary-color: #6366f1;    /* Indigo */
-    --dark-bg: #0f172a;            /* Dark background */
-    --text-primary: #f1f5f9;       /* Light text */
+    --dark-bg: #0f172a;            /* Arrière-plan sombre */
+    --text-primary: #f1f5f9;       /* Texte clair */
 }
 ```
 
-### Content
-- Update text in `index.html`
-- Modify section headings and descriptions
-- Add/remove feature cards and benefits
+### Contenu
+- Mettez à jour le texte dans `index.html`
+- Modifiez les en-têtes et descriptions des sections
+- Ajoutez/supprimez des cartes de fonctionnalités et des avantages
 
-### Integration
+### Intégration
 
-#### Connect to Backend
-Update the contact form submission in `script.js`:
+#### Connecter au backend
+Mettez à jour la soumission du formulaire de contact dans `script.js` :
 ```javascript
-// Replace this section in the contact form handler:
+// Remplacez cette section dans le gestionnaire du formulaire de contact :
 const response = await fetch('/api/contact', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -142,86 +142,86 @@ const response = await fetch('/api/contact', {
 });
 ```
 
-#### Email Service Integration
-Integrate with services like:
+#### Intégration du service de courrier électronique
+Intégrez avec des services comme :
 - SendGrid
 - Mailgun
 - AWS SES
-- Your custom API
+- Votre API personnalisée
 
-## 📱 Mobile Optimization
+## 📱 Optimisation mobile
 
-The website includes:
-- Mobile-first responsive design
-- Touch-friendly buttons and links
-- Optimized font sizes for readability
-- Flexible grid layouts
-- Hamburger menu support
+Le site Web comprend :
+- Conception réactive mobile-first
+- Boutons et liens tactiles
+- Tailles de police optimisées pour la lisibilité
+- Mises en page de grille flexibles
+- Support du menu hamburger
 
-## ♿ Accessibility
+## ♿ Accessibilité
 
-- Semantic HTML structure
-- ARIA labels where needed
-- Keyboard navigation support
-- Color contrast compliance
-- Focus indicators on interactive elements
+- Structure HTML sémantique
+- Étiquettes ARIA si nécessaire
+- Support de la navigation au clavier
+- Conformité du contraste des couleurs
+- Indicateurs de mise au point sur les éléments interactifs
 
 ## 📊 Performance
 
-- No external dependencies
-- Minimal CSS and JavaScript
-- Optimized animations
-- Fast page load time
-- SEO-friendly structure
+- Aucune dépendance externe
+- CSS et JavaScript minimaux
+- Animations optimisées
+- Temps de chargement de page rapide
+- Structure compatible avec le SEO
 
-## 🔐 Security
+## 🔐 Sécurité
 
-The website follows security best practices:
-- No sensitive data stored in frontend
-- Form inputs validated before submission
-- Content Security Policy friendly
-- No inline scripts or dangerous patterns
+Le site Web suit les meilleures pratiques de sécurité :
+- Aucune donnée sensible stockée dans le frontend
+- Entrées de formulaire validées avant soumission
+- Politique de sécurité du contenu conviviale
+- Aucun script en ligne ou motif dangereux
 
-## 🤝 Contributing
+## 🤝 Contribuer
 
-Contributions are welcome! Please:
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+Les contributions sont les bienvenues ! Veuillez :
+1. Forker le dépôt
+2. Créer une branche de fonctionnalité (`git checkout -b feature/amazing-feature`)
+3. Valider les modifications (`git commit -m 'Add amazing feature'`)
+4. Pousser vers la branche (`git push origin feature/amazing-feature`)
+5. Ouvrir une demande d'extraction
 
-## 📄 License
+## 📄 Licence
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Ce projet est licencié sous la licence MIT - consultez le fichier LICENSE pour plus de détails.
 
 ## 📞 Support
 
-For questions or support, please:
-- Open an issue on GitHub
-- Contact us via the contact form on the website
-- Email: support@complianceguardian.io
+Pour toute question ou assistance :
+- Ouvrez un problème sur GitHub
+- Contactez-nous via le formulaire de contact sur le site Web
+- Email : support@complianceguardian.io
 
-## 🗺️ Roadmap
+## 🗺️ Feuille de route
 
-- [ ] Add analytics integration (Google Analytics, Mixpanel)
-- [ ] Implement live demo component
-- [ ] Add customer testimonials section
-- [ ] Create blog section
-- [ ] Add dark/light mode toggle
-- [ ] Implement multi-language support
-- [ ] Add video tutorials section
-- [ ] Create interactive compliance framework selector
+- [ ] Ajouter l'intégration d'analytique (Google Analytics, Mixpanel)
+- [ ] Implémenter un composant de démo en direct
+- [ ] Ajouter une section de témoignages de clients
+- [ ] Créer une section de blog
+- [ ] Ajouter un curseur de mode sombre/clair
+- [ ] Implémenter le support multilingue
+- [ ] Ajouter une section de tutoriels vidéo
+- [ ] Créer un sélecteur de cadre de conformité interactif
 
-## 🎓 Technology Stack
+## 🎓 Pile technologique
 
-- **HTML5**: Semantic markup
-- **CSS3**: Modern styling with gradients and animations
-- **Vanilla JavaScript**: No frameworks required
-- **Responsive Design**: Mobile-first approach
+- **HTML5** : Balisage sémantique
+- **CSS3** : Style moderne avec dégradés et animations
+- **JavaScript vanille** : Aucun framework requis
+- **Conception réactive** : Approche mobile-first
 
 ---
 
-**Compliance Guardian** - AI-Powered Business Resilience Intelligence
+**Compliance Guardian** - Intelligence de résilience métier alimentée par l'IA
 
-🛡️ Protect your business. Ensure compliance. Build resilience.
+🛡️ Protégez votre entreprise. Assurez la conformité. Construisez la résilience.

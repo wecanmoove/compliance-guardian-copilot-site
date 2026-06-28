@@ -1,4 +1,4 @@
-// Smooth scrolling for navigation links
+// Défilement fluide pour les liens de navigation
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -12,47 +12,47 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Contact form submission
+// Soumission du formulaire de contact
 const contactForm = document.getElementById('contactForm');
 if (contactForm) {
     contactForm.addEventListener('submit', function (e) {
         e.preventDefault();
         
-        // Get form data
+        // Obtenir les données du formulaire
         const formData = new FormData(this);
         const data = Object.fromEntries(formData);
         
-        // Here you would typically send data to a backend service
-        console.log('Form submitted:', data);
+        // Ici, vous enverriez généralement les données à un service backend
+        console.log('Formulaire soumis :', data);
         
-        // Show success message
-        alert('Thank you for your message! We will get back to you soon.');
+        // Afficher le message de succès
+        alert('Merci pour votre message ! Nous vous recontacterons bientôt.');
         
-        // Reset form
+        // Réinitialiser le formulaire
         this.reset();
     });
 }
 
-// CTA button actions
+// Actions des boutons CTA
 document.querySelectorAll('.cta-button').forEach(button => {
     button.addEventListener('click', function (e) {
         const buttonText = this.textContent.toLowerCase();
         
-        if (buttonText.includes('get started')) {
-            // Navigate to demo/signup
-            console.log('Navigating to sign up...');
+        if (buttonText.includes('commencer')) {
+            // Accédez à la démo/inscription
+            console.log('Navigation vers l\'inscription...');
             // window.location.href = '/signup';
-        } else if (buttonText.includes('demo')) {
-            // Open demo modal or navigate
-            console.log('Requesting demo...');
-            // You could open a modal here
-        } else if (buttonText.includes('send')) {
-            // Form will handle this
+        } else if (buttonText.includes('démo')) {
+            // Ouvrir une modal de démo ou naviguer
+            console.log('Demande de démo...');
+            // Vous pourriez ouvrir une modal ici
+        } else if (buttonText.includes('envoyer')) {
+            // Le formulaire gérera ceci
         }
     });
 });
 
-// Intersection Observer for fade-in animations
+// Intersection Observer pour les animations de fondu
 const observerOptions = {
     threshold: 0.1,
     rootMargin: '0px 0px -50px 0px'
@@ -67,7 +67,7 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, observerOptions);
 
-// Observe all feature cards and capability items
+// Observer toutes les cartes de fonctionnalités et les éléments de capacité
 document.querySelectorAll('.feature-card, .capability, .benefit-item').forEach(element => {
     element.style.opacity = '0';
     element.style.transform = 'translateY(20px)';
@@ -75,7 +75,7 @@ document.querySelectorAll('.feature-card, .capability, .benefit-item').forEach(e
     observer.observe(element);
 });
 
-// Active navigation link highlighting
+// Mise en évidence active des liens de navigation
 window.addEventListener('scroll', () => {
     const sections = document.querySelectorAll('section');
     const navLinks = document.querySelectorAll('.nav-links a');
@@ -97,7 +97,7 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// Debounce function for scroll events
+// Fonction de débounce pour les événements de défilement
 function debounce(func, wait) {
     let timeout;
     return function executedFunction(...args) {
@@ -110,7 +110,7 @@ function debounce(func, wait) {
     };
 }
 
-// Counter animation for statistics
+// Animation des compteurs pour les statistiques
 function animateCounters() {
     const counters = document.querySelectorAll('.counter');
     
@@ -133,7 +133,7 @@ function animateCounters() {
     });
 }
 
-// Parallax effect for hero section
+// Effet de parallaxe pour la section héros
 window.addEventListener('scroll', debounce(() => {
     const heroVisual = document.querySelector('.hero-visual');
     if (heroVisual && window.innerWidth > 768) {
@@ -142,7 +142,7 @@ window.addEventListener('scroll', debounce(() => {
     }
 }, 10));
 
-// Add ripple effect to buttons
+// Ajouter un effet d'ondulation aux boutons
 document.querySelectorAll('.cta-button').forEach(button => {
     button.addEventListener('click', function (e) {
         const ripple = document.createElement('span');
@@ -162,12 +162,12 @@ document.querySelectorAll('.cta-button').forEach(button => {
     });
 });
 
-// Mobile menu toggle (if needed in future)
+// Basculer le menu mobile (si nécessaire à l'avenir)
 function setupMobileMenu() {
     const navbar = document.querySelector('.navbar');
     const navLinks = document.querySelector('.nav-links');
     
-    // Create menu button
+    // Créer un bouton de menu
     if (window.innerWidth <= 768 && !document.querySelector('.menu-button')) {
         const menuButton = document.createElement('button');
         menuButton.classList.add('menu-button');
@@ -176,16 +176,16 @@ function setupMobileMenu() {
             navLinks.classList.toggle('active');
         });
         
-        // Insert menu button before nav-links
+        // Insérer le bouton de menu avant les liens de navigation
         navbar.querySelector('.container').appendChild(menuButton);
     }
 }
 
-// Initialize on document ready
+// Initialiser lors du chargement du document
 document.addEventListener('DOMContentLoaded', () => {
     setupMobileMenu();
     
-    // Add event listeners for animations
+    // Ajouter des écouteurs d'événements pour les animations
     document.querySelectorAll('.feature-card').forEach(card => {
         card.addEventListener('mouseenter', function () {
             this.style.transform = 'translateY(-5px) scale(1.02)';
@@ -197,12 +197,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// Handle window resize
+// Gérer le redimensionnement de la fenêtre
 window.addEventListener('resize', debounce(() => {
     setupMobileMenu();
 }, 250));
 
-// Log when page is fully loaded
+// Enregistrer lorsque la page est entièrement chargée
 window.addEventListener('load', () => {
-    console.log('Compliance Guardian website loaded successfully');
+    console.log('Site Web Compliance Guardian chargé avec succès');
 });
